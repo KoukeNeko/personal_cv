@@ -1,21 +1,25 @@
 import "./App.css";
-import logo from "./logo.svg";
+
+// import About from './About';
+// import Contact from './Contact';
+// import Experience from './Experience';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App" role="main">
-      <article className="App-article">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>Welcome to React!</h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </article>
+    <div className="Container" role="main">
+      <div className="ribbon">
+          <i className="fa fa-github" aria-hidden="true"></i>
+      </div>
+      <div className="App aero_glass">
+        
+        <Header />
+        <Footer />
+      </div>
+      {/* <div className="App--hidden">
+        0000
+      </div> */}
     </div>
   );
 }
