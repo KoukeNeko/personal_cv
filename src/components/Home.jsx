@@ -5,7 +5,12 @@ function Main() {
         <section className="Main">
             <div className="Describe">
                 <h2 className='Describe--Text'>
-                    Hello! De-Sheng Chen, study in NYUST, a{" "}
+                    Hello! De-Sheng Chen, study in 
+                    <span style={{
+                        background: "linear-gradient(45deg, #08AEEA 0%, #2AF598 100%)",
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
+                    }}>NYUST</span>, a{" "}
                     <span style={{
                         background: "-webkit-linear-gradient(225deg, #FAD961 0%, #F76B1C 100%)",
                         WebkitBackgroundClip: "text",
