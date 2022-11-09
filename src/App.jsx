@@ -2,8 +2,6 @@ import "./App.css";
 import { Route, Routes, Outlet } from "react-router-dom"
 
 import About from './components/About';
-// import Contact from './Contact';
-// import Experience from './Experience';
 import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
