@@ -46,7 +46,7 @@
   font-size: 2rem;
   height: 60px;
   width: 300px;
-  background: #000;
+  background: #1f1f1f;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -56,13 +56,14 @@
   top: 0px;
   transform: rotate(45deg);
   /* transform-origin: 0 0; */
-  box-shadow: 0 0 1px #000;
+  box-shadow: 0 0 37px #000;
   /* z-index: -100; */
 }
 
 .Header{
   height: 30px;
   display: flex;
+  margin-bottom: 70px;
 }
 
 .Nav--bar{
@@ -100,7 +101,8 @@
 .Main{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 70px;
+  height: 100%;
+  /* margin-top: 70px; */
   padding: 0 100px;
 }
 
@@ -109,7 +111,6 @@
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 20px;
   color: #fff;
@@ -164,6 +165,12 @@
   margin-right: auto;
 }
 
+@keyframes profile_img {
+  0%   {margin-top: 0px;}
+  50%  {margin-top: 10px;}
+  100% {margin-top: 0px;}
+}
+
 .Image{
   height: 467px;
   width: 467px;
@@ -173,6 +180,7 @@
   background-image: url('https://scontent.frmq2-2.fna.fbcdn.net/v/t1.6435-9/123136908_170188244732123_1634315602398268329_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TxHMC2FC6W0AX_q2ct3&tn=wfIykJdd3abDQbvB&_nc_ht=scontent.frmq2-2.fna&oh=00_AfBBuvdKMNaHJjteVVpYfy0INWqvecoE4O-u3aI52t18qA&oe=63927A51');
   background-size: cover;
   /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+  animation: profile_img 3s infinite ease-in-out;
 }
 
 .Image::before{
