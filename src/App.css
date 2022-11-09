@@ -1,8 +1,8 @@
 /* use google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500;600;700;800;900&display=swap');
 :root {
-  --bg-image: url('./assets/bg.jpg');
+  /* --bg-image: url('./../public/assets/bg.jpg'); */
 }
 
 * {
@@ -20,7 +20,7 @@
   align-items: center;
   overflow: hidden;
   backdrop-filter: blur(10px);
-  background: var(--bg-image);
+  background: url('./../public/assets/bg.jpg');
   background-size: cover;
   position: relative;
 }
@@ -84,7 +84,7 @@
 }
 
 .nav--title{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Albert Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -115,19 +115,26 @@
 }
 
 .Describe{
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-weight: bold; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   color: #fff;
-  font-size: 36px;
+  /* font-size: 36px;
+  line-height: 55px; */
+}
+
+.Describe--Text {
+  font-size: 50px;
   line-height: 55px;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 900;
 }
 
 .Inline--Text {
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Albert Sans', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -147,7 +154,7 @@
   text-decoration: none;
   cursor: pointer;
   border: none;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Albert Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;

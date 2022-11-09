@@ -2,6 +2,8 @@
   "name": "personal_cv",
   "version": "0.1.61",
   "dependencies": {
+    "firebase-tools": "^11.16.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
@@ -9,7 +11,8 @@
   },
   "scripts": {
     "start": "bun dev",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "bun run build && bun run firebase deploy"
   },
   "eslintConfig": {
     "extends": [
