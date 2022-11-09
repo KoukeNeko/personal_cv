@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="Container" role="main">
-      <div className="ribbon">
+      <div className="ribbon" onClick={()=>window.open('https://github.com/VioletsFoxes/personal_cv','_blank')}>
         <i className="fa fa-github" aria-hidden="true"></i>
       </div>
       <div className="App aero_glass">

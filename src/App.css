@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  user-select: none;
   /* font-family: 'Roboto Mono', monospace; */
 }
 
@@ -58,6 +59,13 @@
   /* transform-origin: 0 0; */
   box-shadow: 0 0 37px #000;
   /* z-index: -100; */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.ribbon:hover {
+  background: rgb(41, 41, 41);
+  transition: all 0.3s ease-in-out;
 }
 
 .Header{

@@ -9,13 +9,13 @@ function Main() {
                     I'm <span style={{
                         background: "-webkit-linear-gradient(225deg, #FAD961 0%, #F76B1C 100%)",
                         WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent"
-                    }}>Designer</span> and
+                        WebkitTextFillColor: "transparent",         
+                    }}>Designer</span> and{" "}
                     <span style={{
                         background: "-webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)",
                         WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent"
-                    }}> Developer </span>
+                        WebkitTextFillColor: "transparent",
+                    }}>Developer </span>
                     here.
                 </h2>
                 <p className='Inline--Text'>
