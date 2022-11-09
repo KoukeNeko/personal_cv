@@ -6,7 +6,7 @@ function Main() {
             <div className="Describe">
                 <h2>
                     Hello! De-Sheng Chen.
-                    Solo <span style={{
+                    I'm <span style={{
                         background: "-webkit-linear-gradient(225deg, #FAD961 0%, #F76B1C 100%)",
                         WebkitBackgroundClip: "text",
                         WebkitTextFillColor: "transparent"
