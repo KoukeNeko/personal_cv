@@ -1,6 +1,7 @@
 /* use google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
 :root {
   /* --bg-image: url('./../public/assets/bg.jpg'); */
 }
@@ -136,7 +137,7 @@
 .Inline--Text {
   font-family: 'Albert Sans', sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   margin-right: 50px;
@@ -212,6 +213,35 @@
   width: 50px;
   height: 50px;
   border: 3px solid #fff;
+}
+
+.About {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  ;
+}
+
+.About--Profile {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.About--Profile > img {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border:5px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-bottom: 30px;
+}
+
+.About--Name {
+  color: #fff;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 30px;
+  text-align: center;
 }
 
 .Footer{
