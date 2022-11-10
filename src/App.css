@@ -36,12 +36,13 @@
 }
 
 .App {
-  width: 1222px;
+  width: 1000px;
   height: 650px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  padding: 0 103px;
 }
 
 .ribbon {

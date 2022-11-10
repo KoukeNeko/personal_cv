@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 
-function Main() {
+function Home() {
     return (
         <section className="Main">
             <div className="Describe">
@@ -37,4 +37,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Home

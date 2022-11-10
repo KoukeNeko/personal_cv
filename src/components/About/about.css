@@ -1,29 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
 
 .About {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    ;
-  }
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: relative;
+  height: 100%;
+}
+
+.About--Profile {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: -100px;
+}
+
+.About--Profile>img {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-bottom: 30px;
+}
+
+.About--Name {
+  color: #fff;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.About--SubName {
+  color: darkgray;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Profile--Details {
+  display: flex;
+  flex-direction: column;
+}
+
+.About--DetailsTitle {
+  color: #fff;
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.About--Text {
+  color: rgb(161, 161, 161);
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.About--Social {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.About--Social > a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease-in-out;
+}
+
+.About--Social > a:hover {
+  background-color: rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease-in-out;
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+
+.NYUST--Img {
+  width: 300px;
+  position: absolute;
+  right: -50px;
+  bottom: 50px;
+  opacity: 0.75;
+}
+
+.Nekooo{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Stick', sans-serif;
+  width: auto;
   
-  .About--Profile {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-  }
-  
-  .About--Profile > img {
-    align-self: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    border:5px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    margin-bottom: 30px;
-  }
-  
-  .About--Name {
-    color: #fff;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 30px;
-    text-align: center;
-  }
+}
+
+.Nekooo:hover {
+  /* text glowing */
+  text-shadow: 0 0 37px #fff;
+}
