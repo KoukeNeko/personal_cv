@@ -1,10 +1,12 @@
 import "./App.css";
 import { Route, Routes, Outlet } from "react-router-dom"
 
-import About from './components/About';
-import Home from "./components/Home";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import About from './components/About/About'
+import Contact from './components/Contact/Contact'
+import Experience from './components/Experience/Experience'
+import Home from './components/Home/Home'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 function App() {
 

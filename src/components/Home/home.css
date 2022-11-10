@@ -1,0 +1,119 @@
+.Main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    /* margin-top: 70px; */
+    padding: 0 100px;
+  }
+  
+  .Describe{
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-weight: bold; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    /* font-size: 36px;
+    line-height: 55px; */
+  }
+  
+  .Describe--Text {
+    font-size: 50px;
+    line-height: 55px;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 900;
+  }
+  
+  .Inline--Text {
+    font-family: 'Albert Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 50px;
+  }
+  
+  .Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-family: 'Albert Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .Btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .Btn-primary {
+    background: #F2672E;
+    border-radius: 4px;
+    color: #FFFFFF  ;
+  }
+  
+  .Describe .Btn {
+    margin-top: 20px;
+    margin-right: auto;
+  }
+  
+  @keyframes profile_img {
+    0%   {margin-top: 0px;}
+    50%  {margin-top: 10px;}
+    100% {margin-top: 0px;}
+  }
+  
+  .Image{
+    height: 467px;
+    width: 467px;
+    border-radius: 50%;
+    margin-left: 40px;
+    position: relative;
+    background-image: url('https://scontent.frmq2-2.fna.fbcdn.net/v/t1.6435-9/123136908_170188244732123_1634315602398268329_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TxHMC2FC6W0AX_q2ct3&tn=wfIykJdd3abDQbvB&_nc_ht=scontent.frmq2-2.fna&oh=00_AfBBuvdKMNaHJjteVVpYfy0INWqvecoE4O-u3aI52t18qA&oe=63927A51');
+    background-size: cover;
+    animation: profile_img 3s infinite ease-in-out;
+  }
+  
+  .Image::after{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 467px;
+    width: 467px;
+    border-radius: 50%;
+    border:5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: -1;
+  }
+  
+  .Image::before{
+    /* a red dor on the right-botton */
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 50%);
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #fff;
+  }

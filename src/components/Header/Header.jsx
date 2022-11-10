@@ -6,6 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
+import './Header.css'
+
 function Header() {
 
   const [selected, setSelected] = React.useState('Home')
