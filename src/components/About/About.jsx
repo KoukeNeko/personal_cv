@@ -5,6 +5,7 @@ import NYUST from '../../assets/nyust.png'
 
 export default function About() {
 
+  const about_text = ["我來自美麗的國際港都高雄市，高中開始接觸資訊領域，雖然時間不長，但仍然持續嘗試各種技術。目前就讀國立雲林科技大學資訊工程學系，目前朝著研究所方向努力中。","I come from the beautiful international port city, Kaohsiung. I started to get in touch with the field of information in high school. Although it was not long, I still continued to try various technologies. Currently studying in the Department of Information Engineering, National Yunlin University of Science and Technology, and is currently working towards a research institute."]
   const slogan = ["猫はエンジニアにとって欠かせない心の友", "猫是工程師不可或缺的精神良伴", "Cats are indispensable spiritual companions for engineers"]
   const [sloganIndex, setSloganIndex] = React.useState(0)
 
@@ -19,7 +20,7 @@ export default function About() {
         <h2 className='About--DetailsTitle'>ABOUT ME</h2>
         <div className="About--Text">
           <p>
-            我來自美麗的國際港都高雄市，高中開始接觸資訊領域，雖然時間不長，但仍然持續嘗試各種技術。目前就讀國立雲林科技大學資訊工程學系，目前朝著研究所方向努力中。
+            {about_text[1]}
           </p>
         </div>
         <div className="About--Social">

@@ -69,3 +69,18 @@
   background: rgb(41, 41, 41);
   transition: all 0.3s ease-in-out;
 }
+
+.DetailsTitle {
+  color: #fff;
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.Text {
+  color: rgb(161, 161, 161);
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}

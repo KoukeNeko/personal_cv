@@ -6,7 +6,7 @@ function Home() {
         <section className="Main">
             <div className="Describe">
                 <h2 className='Describe--Text'>
-                    Hello! De-Sheng Chen, study in{" "}
+                    Hello! De - Sheng Chen, study in{" "}
                     <span style={{
                         background: "linear-gradient(45deg, #08AEEA 0%, #2AF598 100%)",
                         WebkitBackgroundClip: 'text',

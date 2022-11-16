@@ -1,0 +1,96 @@
+.Experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100%;
+}
+
+.Experience--Professional{
+    display: flex;
+    flex-direction: column;
+}
+
+/* custom ul marker */
+.Item--list {
+    list-style-type: none;
+    position: relative;
+    margin: 3px 0 3px 25px
+}
+
+.Item--list::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50% - 0.5rem);
+    left: -20px;
+    width: 15px;
+    height: 15px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+.Text{
+    margin-bottom: 10px;
+}
+
+.TimeLine{
+    display: grid;
+    color: aliceblue;
+    height: 450px;
+    width: 100%;
+    overflow: scroll !important;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border:1px solid rgba(255, 255, 255, 0.18);
+    /* padding: 0 0 50px 5px;  */
+}
+
+.TimeLine--Item{
+    height: auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 4px solid rgba(255, 255, 255, 0.18);
+    position: relative;
+    margin-left: 10px;
+}
+
+.aero{
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px 20px;
+    margin: 10px 0;
+}
+
+.TimeLine--Item::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+    position: absolute;
+    left: -7px;
+    top: calc(50% - 5px);
+    margin-bottom: 5px;
+}
+
+.TimeLine--Item--Company{
+    color: darkgray;
+}
+
+/* 參與 Google Cloud Platform 開發培訓計劃
+參與 Android Developer Kotlin 開發培訓計劃
+加入 Zentring 接案開發團隊
+參與 American Mathematics Competition 12B
+Microsoft Technology Associate
+Networking Fundamentals 證照
+中華民國商業管理協會 Python程式設計訓練
+wikidue程式設計學院 教師訓練-自走車教師訓練
+wikidue程式設計學院 教師訓練-飛行器教師訓練
+參與 小論文 TensorFlow 你是我的眼導盲應用
+參與 American Mathematics Competition 10
+國立高雄科大 扎根高中職資訊科學教育訓練 程式設計
+國立高雄科大扎根高中職資訊科學教育訓練 網頁設計
+參與 小輪文 App Inventor 相關應用 */
