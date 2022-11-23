@@ -13,6 +13,7 @@
   /* font-family: 'Roboto Mono', monospace; */
 }
 
+
 .Container{
   width: 100%;
   height: 100vh;
@@ -84,3 +85,29 @@
   font-size: 20px;
   text-align: left;
 }
+
+@media (max-width: 1500px) {
+  .App {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+  }
+
+  .aero_glass{
+    border-radius: none !important;
+    border: none !important;
+  }
+}
+
+/* @media (min-width: 1000) {
+  .App {
+    width: 90%;
+    padding: 0 20px;
+  }
+} */
